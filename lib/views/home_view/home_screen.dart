@@ -4,12 +4,14 @@ import '../../utils/assets_app.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+  static const String home = "/home";
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
   List<Widget> icons = [];
   int indexOfIcons = 0;
   @override
